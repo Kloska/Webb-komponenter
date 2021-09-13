@@ -27,8 +27,12 @@ h1{
 
 .navbar{
     min-height: 3rem;
-    background-color:mediumseagreen;
+    background-color: rgb(35, 64, 153);
     font-size: 1.6rem;
+}
+
+.navbar a{
+    color: white;
 }
 
 .nav{
@@ -53,8 +57,13 @@ padding-left: 1rem;
     text-decoration:underline;
 }
 
+.navbar-brand{
+    text-decoration: none;
+}
+
 @media screen and (max-width: 24rem){
     .navbar-inner, .nav{
     flex-direction: column;
     }
 }
+
