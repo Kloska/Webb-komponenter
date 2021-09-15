@@ -1,0 +1,29 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 12rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    background-color: rgba(235, 82, 255, 0.05);
+
+    &:hover {
+        background-color: rgba(235, 82, 255, 0.2)
+    }
+    &-image {
+        max-width: 100%;
+    }
+    &-footer {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: auto;
+    }
+    @media screen and (max-width: 24rem) {
+        .card-group {flex-direction: column;}
+        .card {width: 100%;}
+    }
+    &-group {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 2rem;
+    }
+}
