@@ -17,13 +17,13 @@
         justify-content: flex-end;
         margin-top: auto;
     }
-    @media screen and (max-width: 24rem) {
-        .card-group {flex-direction: column;}
-        .card {width: 100%;}
-    }
     &-group {
         display: flex;
         justify-content: space-between;
         padding-top: 2rem;
+    }
+    @media screen and (max-width: 24rem) {
+        .card-group {flex-direction: column;}
+        .card {width: 100%;}
     }
 }
